@@ -9,7 +9,7 @@ int main() {
 	if (cookies < 5) {
 		cout << "Are You sure" << endl;
 	}
-	else if (cookies > 5 && cookies < 10) {
+	else if (cookies > 5 && cookies <= 10) {
 		cout << "Thats a good amount" << endl;
 	}
 	else {
